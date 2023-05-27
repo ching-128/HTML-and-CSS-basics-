@@ -47,3 +47,14 @@ The structure of html documnet =>
             <head></head>
             <body></body>
         </html>
+        
+ h1-h6 => 
+	it is called heading tag.
+	it is use to create headline of webpage.
+	in each page h1 is required min and max 1 time.
+	h2 to h6 no such restricted rules.
+	
+p => p tag is use if text length is more than 130 chars.
+label, b, i, u, font => use if text length is between 1 to 130 chars.
+  
+ 
