@@ -1,0 +1,49 @@
+HTML - Hyper Text Markup language.
+    it has collections of pre-defined tag.
+    it use to create basic webpage.
+    it is use to send information to user and to collect information from user via browser.
+
+TAGS - 
+    <> - open tag
+    </> - close tag
+
+1. Types of Tags -
+    a. input tags - those tags , that use to ask input from user.
+    b. output tags - those tags, that use to display output to user.
+
+2. Behavior of html tags - 
+    a. dependent tags - those tag, that has seperate open and close tag
+        -> <html></html>
+           <body></body>
+           <head></head>
+
+    b. independent tags - self closing tags, those tags, that has only open with self closing
+        -> <br/>
+           <img/>
+           <hr/>
+
+    c. block level tags - those tags, that print statement in new line by default.
+    d. inline tags - those tags, that print statementin same line(isde by side) by default.
+
+note - using CSS 
+    block level tags => covert => inline tags
+    inline tags => convert => block level tags.
+it will call responsive web design.
+  
+The valid extension of html file =>
+    .html - it is more SEO(search engine optimization) friendly.
+    .htm - where L is optional.
+
+The structure of html documnet =>
+    ->html
+    -> it devide into 2 parts
+        head
+            ->marketing section
+            ->library section
+        body
+            ->use tags with suitable contents.
+
+        <html>
+            <head></head>
+            <body></body>
+        </html>
