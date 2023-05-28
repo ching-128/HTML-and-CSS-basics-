@@ -1,0 +1,19 @@
+Link the page in html =>
+    <a> -> hyperlink tag.
+    href -> it is property name, use to set path for next page.
+    title -> it use for digital marketing.
+    target - it define the location for next file to be open.
+
+    type of target =>
+
+        target="_self" -> the next page will open in same page.
+
+        target="_new" -> the next page will open in new tad but only first click.
+
+        target="_blank" -> the next page will open in new tab in every click.
+
+        target="_child" -> the next page will open in new pop up window.
+
+        target="_parent" -> the interaction in child window it reflact in parent window.
+
+        target="userdefined" -> can be created by devloper according to need.
