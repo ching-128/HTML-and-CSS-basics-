@@ -1,0 +1,17 @@
+Types of list in HTML -
+	1) OL - order list
+			type - "1"
+			type - "A"
+			type - "a"
+			type - "I"
+			type - "i"
+	2) UL - unorder list
+			type - "none"
+			type - "disc"
+			type - "square"
+			type - "circle"
+	3) DL - defination list 
+	where,	dt (defination title)
+				- it use to display title of content.
+			dd (defination details)
+				- it use to display description of content.
