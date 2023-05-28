@@ -1,0 +1,7 @@
+how to devide html page into multiople blocks?
+    1) frameset - it devide page into multiple block.
+        -frame - it load/call/include/import a file in eCH block.
+
+    2) html + css
+        
+
