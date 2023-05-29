@@ -1,0 +1,84 @@
+body {
+	/* background-color: blue; */
+	/* font-size: 70px; */
+	/* color: green; */
+	margin: 0;
+}
+
+ul {
+	padding: 20px;
+	margin: 0;
+	background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 255, 0.8), rgba(0, 128, 0, 0.8));
+	/* background: rgba(255, 255, 255, 0.611); */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.318);
+	overflow: hidden;
+}
+
+
+ul li {
+	display: inline;
+	padding: 23px;
+}
+
+ul li:hover {
+	background: brown;
+	cursor: pointer;
+}
+
+ul li a {
+	color: white;
+	font-size: 23px;
+	text-decoration: none;
+}
+
+ul li a i {
+	font-size: auto;
+}
+
+#container {
+	padding: 30px;
+}
+
+h1 {
+	color: orange;
+}
+
+footer {
+	padding: 20px;
+	font-size: 16px;
+	background: black;
+	color: white;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+/* footer:nth-child(1)>i {
+	padding: 10px;
+} */
+
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
+.blue {
+	color: blue;
+}
+.pink {
+	color: pink;
+}
+.maroon {
+	color: maroon;
+}
+.aqua {
+	color: aqua;
+}
+.orange {
+	color: orange;
+}
+.yellow {
+	color: yellow;
+}

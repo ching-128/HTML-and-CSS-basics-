@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #mainmenu {
+            margin: 0px;
+            background: black;
+            color: white;
+        }
+
+        #mainmenu li {
+            display: inline-block;
+            padding: 15px 40px 15px;
+            transition: all 0.5s linear;
+        }
+
+        #mainmenu li:hover {
+            background: blue;
+            cursor: pointer;
+        }
+
+        /* the main menu is finished and submenu is started  */
+        .submenu {
+            background: green;
+            position: absolute;
+            margin-top: 15px;
+            margin-left: -39px;
+            padding: 10px 0;
+            display: none;
+        }
+
+        #mainmenu li:hover .submenu {
+            display: block;
+        }
+
+        .submenu li {
+            display: block !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul id="mainmenu">
+        <li>home</li>
+        <li>about us</li>
+        <li>our services
+            <ul class="submenu">
+                <li>website designing</li>
+                <li>website devlopment</li>
+                <li>content writting</li>
+                <li>digital marketing</li>
+            </ul>
+        </li>
+        <li>register</li>
+        <li>login</li>
+        <li>
+            branches
+            <ul class="submenu">
+                <li>Bengalore</li>
+                <li>Chennai</li>
+                <li>Mumbai</li>
+                <li>Kolkatta</li>
+            </ul>
+        </li>
+        <li>our product
+            <ul class="submenu">
+                <li>lead management</li>
+                <li>API app</li>
+                <li>E-mail marketing</li>
+                <li>hiring APP</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
