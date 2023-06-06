@@ -1,0 +1,122 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      width: 100%;
+      height: 100vh;
+}
+
+#main {
+      width: 100%;
+      height: 100%;
+      /* background-color: rgba(63, 87, 108, 0.233); */
+      display: grid;
+      grid-template-columns: 2.5fr 7.5fr;
+}
+
+#body_header {
+      background-color: #365e7b;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 10px;
+      padding-right: 20px;
+      text-align: right;
+}
+
+#body_header #head {
+      padding: 0 10px;
+      text-transform: uppercase;
+      color: white;
+      font-size: 34px;
+}
+
+#body_header #header_info {
+      color: rgba(255, 255, 255, 0.8);
+      padding: 0 10px;
+      font-size: 26px;
+}
+
+#body_header #btn_groups {
+      padding: 5px 10px;
+}
+
+#btn_groups .btn {
+      color: white;
+      background-color: transparent;
+      border: 2px solid white;
+      border-radius: 5px;
+      font-size: 20px;
+      padding: 10px;
+      margin: 5px;
+}
+
+
+
+
+#body_contents {
+      background-color: aquamarine;
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-rows: 5fr 5fr;
+      padding: 20px 20px 20px 30px;
+      background-color: white;
+}
+
+.blog {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      align-items: flex-start;
+      justify-items: flex-start;
+      grid-template-rows: 2fr 8fr;
+      letter-spacing: 1px;
+}
+
+.profile_name,
+.pin {
+      font-variant: small-caps;
+}
+
+.blog .post {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-rows: 1fr 3fr;
+}
+
+.post_header {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 9fr 1fr;
+}
+
+.post_title {
+      text-transform: capitalize;
+      font-size: 28px;
+}
+
+.profile_name {
+      color: #1d79bb;
+      font-weight: bold;
+}
+
+.profile{
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: left;
+}
+
+.profile img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+}

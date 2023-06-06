@@ -1,0 +1,123 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-variant: small-caps;
+      font-size: 20px;
+}
+
+body {
+      width: 100%;
+      height: 100vh;
+}
+
+/* css for main body */
+#main_1 {
+      grid-template-rows: 1.2fr 1.2fr 8fr 1.2fr;
+      width: 100%;
+      height: 100vh;
+      display: grid;
+      gap: 10px;
+}
+
+#main_2 {
+      width: 100%;
+      height: 100vh;
+      display: grid;
+      grid-template-rows: 1.5fr 8.5fr;
+      gap: 10px;
+}
+
+#main_3 {
+      width: 100%;
+      height: 100vh;
+      display: grid;
+      grid-template-rows: 1fr 8fr 1fr;
+      gap: 10px;
+}
+
+/* css for body contents */
+.body_content {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-content: center;
+      background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* css for main content areas */
+#main_content_area_1 {
+      display: grid;
+      grid-template-areas: "section section aside"
+            "article article aside";
+      gap: 10px;
+      background-color: white;
+      place-content: auto;
+}
+
+#main_content_area_2 {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-areas:
+            "menu1 text0 text0"
+            "menu1 image text1"
+            "menu1 image text1";
+      gap: 10px;
+}
+
+#main_content_area_3 {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 2fr 6fr 2fr;
+      gap: 10px;
+      /* background-color: aquamarine; */
+}
+
+/* css for contents */
+[class^="contents"] {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      gap: 10px;
+      place-content: center;
+      background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* index1 contents started */
+.contents1:nth-child(1) {
+      grid-area: section;
+}
+
+.contents1:nth-child(2) {
+      grid-area: aside;
+}
+
+.contents1:nth-child(3) {
+      grid-area: article;
+}
+
+/* index2 contents started */
+.contents2:nth-child(1) {
+      grid-area: menu1;
+}
+
+.contents2:nth-child(2) {
+      grid-area: text0;
+}
+
+.contents2:nth-child(3) {
+      grid-area: image;
+}
+
+.contents2:nth-child(4) {
+      grid-area: text1;
+}
+
+/* index3 contents started */
+.contents3, .yellow{
+      background-color: yellow;
+}
