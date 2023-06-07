@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            * {
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+                  text-transform: capitalize;
+            }
+
+            body {
+                  width: 100%;
+                  height: 100vh;
+            }
+
+            #main {
+                  width: 100%;
+                  height: 100%;
+                  display: grid;
+                  align-content: flex-start;
+                  justify-items: center;
+                  gap: 10px;
+            }
+
+            #main h2{
+                  margin-top: 40px;
+            }
+
+            .cars_list {
+                  width: 60%;
+                  height: max-content;
+                  /* background-color: aquamarine; */
+                  display: grid;
+                  gap: 30px;
+                  grid-auto-flow: column;
+                  /* align-content: space-around; */
+                  grid-template-columns: 3fr 3fr 3fr;
+            }
+
+            .grid {
+                  width: 100%;
+                  height: 100%;
+                  /* display: grid; */
+                  /* justify-items: center; */
+                  padding: 20px;
+            }
+
+            .info {
+                  display: flex;
+                  align-items: flex-start;
+                  justify-content: flex-start;
+                  flex-direction: column;
+                  gap: 10px;
+                  margin-top: 10px;
+                  /* background-color: aqua; */
+            }
+
+            .info h3 {
+                  color: red;
+            }
+
+            .img {
+                  align-content: center;
+                  justify-items: center;
+                  position: relative;
+                  /* gap: 20px; */
+            }
+
+            .img span {
+                  position: absolute;
+                  top: 20px;
+                  left: 20px;
+            }
+
+            .img img {
+                  width: 300px;
+                  height: 200px;
+                  margin-top: 20px;
+                  border-radius: 10px;
+            }
+
+            .service {
+                  display: flex;
+                  align-items: flex-start;
+                  justify-content: center;
+            }
+
+            table {
+                  text-align: center;
+                  padding: 10px;
+                  width: 100%;
+                  border-collapse: collapse;
+            }
+
+            thead tr:nth-child(1) th {
+                  color: orange;
+            }
+
+            thead tr:nth-child(2) th {
+                  color: red;
+            }
+
+            td,
+            th {
+                  border: 1px solid black;
+                  padding: 10px;
+                  border-collapse: collapse;
+            }
+      </style>
+</head>
+
+<body>
+      <div id="main">
+            <h2>23 - available cars</h2>
+            <div class="cars_list">
+                  <div class="info grid">
+                        <h3>toyota camry</h3>
+                        <p>price : 289000</p>
+                        <p>fuel : petrol</p>
+                        <p>version : XL</p>
+                  </div>
+                  <div class="img grid">
+                        <span>sedan</span>
+                        <img src="pic1.png" alt="">
+                  </div>
+                  <div class="service grid">
+                        <table align="center">
+                              <thead>
+                                    <tr>
+                                          <th colspan="3">service history</th>
+                                    </tr>
+                                    <tr>
+                                          <th>sl no`</th>
+                                          <th>service date</th>
+                                          <th>service cost</th>
+                                    </tr>
+                              </thead>
+                              <tbody>
+                                    <tr>
+                                          <td>1</td>
+                                          <td>2016-07-11</td>
+                                          <td>2425</td>
+                                    </tr>
+                                    <tr>
+                                          <td>2</td>
+                                          <td>2017-07-08</td>
+                                          <td>1425</td>
+                                    </tr>
+                              </tbody>
+                        </table>
+                  </div>
+            </div>
+            <hr style="height: 2px; width:80%" color="skyblue">
+            <div class="cars_list">
+                  <div class="info grid">
+                        <h3>toyota rava</h3>
+                        <p>price : 289000</p>
+                        <p>fuel : electric</p>
+                        <p>version : XL</p>
+                  </div>
+                  <div class="img grid">
+                        <span>SUV</span>
+                        <img src="pic2.png" alt="">
+                  </div>
+                  <div class="service grid">
+                        <table align="center">
+                              <thead>
+                                    <tr>
+                                          <th colspan="3">service history</th>
+                                    </tr>
+                                    <tr>
+                                          <th>sl no`</th>
+                                          <th>service date</th>
+                                          <th>service cost</th>
+                                    </tr>
+                              </thead>
+                              <tbody>
+                                    <tr>
+                                          <td>1</td>
+                                          <td>2016-07-11</td>
+                                          <td>2425</td>
+                                    </tr>
+                                    <tr>
+                                          <td>2</td>
+                                          <td>2017-07-08</td>
+                                          <td>1425</td>
+                                    </tr>
+                              </tbody>
+                        </table>
+                  </div>
+            </div>
+            <hr style="height: 2px; width:80%" color="skyblue">
+      </div>
+</body>
+
+</html>

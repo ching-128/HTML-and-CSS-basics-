@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+      <title>Document</title>
+      <style>
+            *{
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+            }
+            #main{
+                  width: 100%;
+                  height: 100vh;
+                  position: relative;
+            }
+            #main h2{
+                  position: absolute;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  margin: 30px 0;
+            }
+
+            #menu{
+                  position: absolute;
+                  top: 10%;
+                  left: 10%;
+                  width: 80%;
+                  height: 300px;
+                  /* background-color: antiquewhite; */
+                  margin-top: 30px;
+                  padding: 30px;
+                  display: grid;
+                  justify-items: center;
+                  gap: 20px;
+                  align-content: space-evenly;
+                  grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+
+            #menu .menu_items{
+                  width: 160px;
+                  height: 100px;
+                  background-color: rgba(0, 0, 0, 0.1);
+                  border-radius: 10px;
+                  display: flex;
+                  gap: 10px;
+                  align-items: center;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 20px;
+                  color: var(--color);
+                  font-weight: 800;
+                  transition: 0.3s linear;
+            }
+
+            .menu_items:hover{
+                  scale: 1.1;
+            }
+
+            .menu_items span{
+                  transition: 0.4s linear;
+            }
+
+            .menu_items:hover span{
+                  transform: rotateZ(360deg);
+            }
+      </style>
+</head>
+
+<body>
+      <div id="main">
+            <h2>Dashboard</h2>
+            <div id="menu">
+                  <div class="menu_items" style="--color:purple">
+                        <span class="material-symbols-outlined">
+                              person_add
+                        </span>
+                        <div>Admission</div>
+                  </div>
+                  <div class="menu_items" style="--color:blue">
+                        <span class="material-symbols-outlined">
+                              verified
+                        </span>
+                        <div>Payment</div>
+                  </div>
+                  <div class="menu_items" style="--color:green">
+                        <span class="material-symbols-outlined">
+                              edit
+                        </span>
+                        <div>Examination</div>
+                  </div>
+                  <div class="menu_items" style="--color:brown">
+                        <span class="material-symbols-outlined">
+                              local_activity
+                        </span>
+                        <div>Activity</div>
+                  </div>
+                  <div class="menu_items" style="--color:black">
+                        <span class="material-symbols-outlined">
+                              train
+                        </span>
+                        <div>Transport</div>
+                  </div>
+                  <div class="menu_items" style="--color:skyblue">
+                        <span class="material-symbols-outlined">
+                              person_filled
+                        </span>
+                        <div>Employee</div>
+                  </div>
+                  <div class="menu_items" style="--color:gold">
+                        <span class="material-symbols-outlined">
+                              account_balance_wallet
+                        </span>
+                        <div>Finance</div>
+                  </div>
+                  <div class="menu_items" style="--color:darkgray">
+                        <span class="material-symbols-outlined">
+                              settings
+                        </span>
+                        <div>App Setting</div>
+                  </div>
+            </div>
+      </div>
+</body>
+
+</html>
