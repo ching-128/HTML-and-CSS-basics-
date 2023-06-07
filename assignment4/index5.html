@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            * {
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+            }
+
+            body {
+                  width: 100%;
+                  height: 100vh;
+                  font-family: sans-serif;
+            }
+
+            .main {
+                  width: 100%;
+                  height: 100%;
+                  display: grid;
+                  grid-template-rows: 4fr 6fr;
+            }
+
+            .header {
+                  width: 100%;
+                  height: 100%;
+                  display: grid;
+                  grid-template-rows: 3fr 1fr;
+            }
+
+            .header .logo {
+                  display: grid;
+                  place-content: center;
+                  background-color: green;
+            }
+
+            .header .logo h1 {
+                  color: white;
+                  font-size: 3.5rem;
+            }
+
+            .header .nav {
+                  display: flex;
+                  align-items: center;
+                  gap: 20px;
+                  font-variant: small-caps;
+                  padding-left: 15px;
+                  height: 100%;
+                  background-color: darkgray;
+            }
+
+            .header .nav li {
+                  color: white;
+                  list-style: none;
+                  font-weight: 600;
+                  font-size: 1.1rem;
+            }
+
+            .main_content {
+                  width: 100%;
+                  height: 100%;
+                  padding: 40px;
+                  display: flex;
+                  gap: 15px;
+                  justify-content: space-between;
+            }
+
+            .main_content .content h2 {
+                  color: green;
+                  margin-bottom: 30px;
+                  text-align: center;
+            }
+
+            .main_content .content p {
+                  letter-spacing: 1px;
+                  word-wrap: break-word;
+                  word-spacing: 3px;
+            }
+      </style>
+</head>
+
+<body>
+      <div class="main">
+            <div class="header">
+                  <div class="logo">
+                        <h1>GreeksforGeeks</h1>
+                  </div>
+                  <ul class="nav">
+                        <li>Algo</li>
+                        <li>DS</li>
+                        <li>Language</li>
+                  </ul>
+            </div>
+            <div class="main_content">
+                  <div class="content">
+                        <h2>Column A</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, expedita laborum.
+                              Perferendis, ratione eius tempora nemo temporibus libero autem blanditiis illo est eaque
+                              reiciendis voluptas dolorem doloribus deleniti asperiores a?
+                              At sequi obcaecati ullam. Possimus aliquid nam debitis ex aliquam magni eum adipisci neque
+                              magnam. Deserunt iste ipsa, exercitationem beatae natus deleniti libero ut dolorum
+                              eveniet! A eveniet voluptatum fugit.</p>
+                  </div>
+                  <div class="content">
+                        <h2>Column B</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga eum harum culpa, sit, maxime
+                              illum vero nisi deleniti molestias exercitationem facilis, libero enim dolores. Dolor
+                              voluptatem consequuntur impedit iste error!
+                              Rerum mollitia ratione tempora iusto, eaque alias quis nemo obcaecati sequi, hic,
+                              veritatis culpa iste voluptatibus. Optio, commodi qui voluptates possimus, ut provident
+                              eligendi suscipit earum deleniti quia repellendus repellat.</p>
+                  </div>
+                  <div class="content">
+                        <h2>Column C</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ex iste autem corporis
+                              repudiandae quasi voluptatum optio id? Ratione dignissimos iusto dolores eum cumque quos
+                              reiciendis consectetur, sapiente odit illum?Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Eius soluta, vero asperiores quas dicta ipsum officiis, optio reiciendis
+                              blanditiis sunt neque natus quidem aspernatur maxime ratione mollitia cupiditate
+                              consectetur magni.</p>
+                  </div>
+            </div>
+      </div>
+</body>
+
+</html>
