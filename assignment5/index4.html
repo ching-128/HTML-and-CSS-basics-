@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            *{
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+            }
+
+            body{
+                  width: 100%;
+                  height: 100vh;
+                  display: grid;
+                  justify-content: center;
+            }
+
+            #main{
+                  width: 100%;
+                  height: 70%;
+            }
+
+            .nav{
+
+                  margin: 30px auto;
+                  width: 65%;
+                  height: 100px;
+                  /* background-color: gray; */
+                  display: grid;
+                  place-content: center;
+            }
+
+            .nav ul{
+                  height: 100%;
+                  width: 100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-evenly;
+                  /* background-color: skyblue; */
+            }
+
+            .nav ul li{
+                  margin: 2px;
+                  list-style: none;
+                  background-color: blue;
+                  padding: 10px 15px;
+                  color: white;
+            }
+
+            .content{
+                  margin: 0 10px;
+            }
+
+            .content h2{
+                  margin-bottom: 20px;
+            }
+
+            .content ol li{
+                  margin: 10px 10px;
+            }
+      </style>
+</head>
+<body>
+      <div id="main">
+            <div class="nav">
+                  <ul>
+                        <li class="list">City</li>
+                        <li class="list">Books</li>
+                        <li class="list">User</li>
+                        <li class="list">Product</li>
+                        <li class="list">Comments</li>
+                        <li class="list">Car</li>
+                  </ul>
+            </div>
+
+            <div class="content">
+                  <h2>City List From JSON File</h2>
+                  <ol>
+                        <li>Banglore</li>
+                        <li>Mumbai</li>
+                        <li>Kolkatta</li>
+                        <li>Channai</li>
+                        <li>Pune</li>
+                        <li>Andra Pradesh</li>
+                        <li>Hydarabad</li>
+                  </ol>
+            </div>
+      </div>
+</body>
+</html>
